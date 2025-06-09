@@ -29,3 +29,6 @@ def register():
     # Here you could register the user.
     # Add them to a database, for example.
     return render_template("register.html")
+@app.route('/intranet')
+def intranet():
+    return render_template('intranet.html', user=session.get('username'))
