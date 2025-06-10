@@ -1,9 +1,37 @@
 <!DOCTYPE html>
-<html>
-  <head></head>
-  <body>
-    <h1>Flask template app</h1>
-    <p>This is an HTML file, served with Flask.</p>
-    <p>Your name is {{ name }}.</p>
-  </body>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Intranet Startseite</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f8;
+            padding: 20px;
+        }
+        h1 {
+            color: #2a5d84;
+        }
+        .news {
+            background: #fff;
+            border: 1px solid #ccc;
+            padding: 15px;
+            margin-top: 20px;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Willkommen im internen Intranet</h1>
+    <p>Nur für Mitarbeitende sichtbar – Zugriff nur intern</p>
+
+    <div class="news">
+        <h2>Aktuelle News</h2>
+        <ul>
+            <li>✅ Neue Sicherheitsrichtlinien veröffentlicht</li>
+            <li>📅 Team-Meeting am Freitag, 10 Uhr</li>
+            <li>🎉 Sommerfest am 30. Juni – Anmeldung offen</li>
+        </ul>
+    </div>
+</body>
 </html>
