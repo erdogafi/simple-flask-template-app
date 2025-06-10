@@ -1,9 +1,5 @@
-""
+"""
 This app is only partially complete. At the moment we can't sign up or log in new users.
-
-Want to find out how we'd complete it?
-
-Check out our blog post: <>
 """
 
 from flask import Flask, render_template, request, session, redirect, url_for
