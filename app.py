@@ -28,3 +28,7 @@ def register():
 @app.route('/intranet')
 def intranet():
     return render_template('intranet.html', user=session.get('username'))
+
+@app.route("/health")
+def health():
+    return "OK", 200
